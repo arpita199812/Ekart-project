@@ -36,10 +36,10 @@
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
 
+        <!-- Web MVC -->
         <dependency>
-             <groupId>org.springframework.boot</groupId>
-             <artifactId>spring-boot-starter-webmvc</artifactId>
-             <version>${project.parent.version}</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <!-- Data REST -->
@@ -48,12 +48,7 @@
             <artifactId>spring-boot-starter-data-rest</artifactId>
         </dependency>
 
-        <dependency>
-             <groupId>org.springframework</groupId>
-             <artifactId>spring-webmvc</artifactId>
-        </dependency>
-
-        <!--HAL REST Browser -->
+        <!-- HAL REST Browser -->
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-rest-hal-browser</artifactId>
@@ -73,13 +68,7 @@
 
         <dependency>
             <groupId>org.thymeleaf.extras</groupId>
-            <artifactId>thymeleaf-extras-springsecurity4</artifactId>
-        </dependency>
-
-        <!-- Spring MVC -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <artifactId>thymeleaf-extras-springsecurity5</artifactId>
         </dependency>
 
         <!-- hot swapping, disable cache for template, enable live reload -->
@@ -116,16 +105,19 @@
             <artifactId>bootstrap</artifactId>
             <version>3.3.7</version>
         </dependency>
-             <dependency>
-    <groupId>org.jacoco</groupId> 
-    <artifactId>jacoco-maven-plugin</artifactId>
-    <version>0.8.6</version>
-</dependency>
+
         <!-- Optional, for jQuery -->
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>jquery</artifactId>
             <version>2.1.4</version>
+        </dependency>
+
+        <!-- Jacoco -->
+        <dependency>
+            <groupId>org.jacoco</groupId>
+            <artifactId>jacoco-maven-plugin</artifactId>
+            <version>0.8.6</version>
         </dependency>
     </dependencies>
 
