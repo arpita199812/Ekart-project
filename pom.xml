@@ -39,6 +39,7 @@
         <dependency>
              <groupId>org.springframework.boot</groupId>
              <artifactId>spring-boot-starter-webmvc</artifactId>
+             <version>${project.parent.version}</version>
         </dependency>
 
         <!-- Data REST -->
